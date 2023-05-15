@@ -1,0 +1,10 @@
+.top{
+    margin-left: 70px;
+}
+
+.bottom{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}

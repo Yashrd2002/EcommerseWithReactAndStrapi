@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+.navbar1 .inf{
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar1 .inf .link{
+    text-decoration: none;
+    margin: 21px;
+    color: black;
+    
+}
+.navbar1 .inf .link:hover{
+    color: rgb(242, 14, 14);
+}
+.navbar1 .inf div{
+    margin:16px;
+    cursor: pointer;
+}
+.navbar1 .inf :hover{
+    color: rgb(242, 14, 14);
+}
+.navbar1 .inf .ico{
+    position: relative;
+    top: 5px;
+    cursor: pointer;
+    
+}
+.navbar1{
+    background-color: rgb(202, 192, 192);
+    font-family: 'Roboto Slab', serif;
+    
+}
+
+
+
+.navbar2{
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.navbar2 .left{
+    display: flex;
+
+}
+.navbar2 .left img{
+    height: 150px;
+}
+.navbar2 .left .head{
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    position: relative;
+    left: 90px;
+}
+.navbar2 .mid{
+    display: flex;
+    align-items: center;
+}
+.navbar2 .mid .item{
+    font-size: 1.1rem;
+    color: black;
+}
+.navbar2 .mid .item .link{
+    text-decoration: none;
+    margin: 20px;
+    color: black;
+    
+}
+.navbar2 .right{
+    display: flex;
+}
+.navbar2 .right .item{
+    display: flex;
+    align-items: center;
+    margin: 0px 15px;
+    position: relative;
+    cursor: pointer;
+}
+.navbar2 .right img{
+    width: 25px;
+}
+
+.item span {
+    font-size: 12px;
+    width: 18px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgb(63, 8, 214);
+    color: white;
+    position: absolute;
+    top: 51px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 13px;
+}

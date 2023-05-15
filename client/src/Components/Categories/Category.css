@@ -1,0 +1,51 @@
+.category{
+    display: flex;
+    height: 80vh;
+    gap:10px;
+    margin: 10px;
+    overflow: hidden;
+}
+.col{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.coll{
+    flex: 2;
+}
+.row{
+    flex: 1;
+    display: flex;
+    gap:10px;
+    position: relative;
+    overflow: hidden;
+
+}
+.category button{
+    position: absolute;
+    min-width: 100px;
+  
+    border: none;
+
+    height: 50px;
+    padding: 10px;
+    top: 0;
+    bottom: 0;
+    left: 138px;
+    margin: auto;
+    background-color: rgba(23, 21, 21, 0.6);
+    border-radius: 10px;
+    
+}
+.category .row .link{
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.category img{
+    height: 154%;
+    width:  100%;
+    object-fit: cover;
+}

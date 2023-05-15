@@ -1,0 +1,64 @@
+.cart {
+  position: absolute;
+  right: 20px;
+  top: 80px;
+  z-index: 999;
+  background-color: white;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+.cart h1 {
+  margin-bottom: 30px;
+  color: grey;
+  font-size: 24px;
+}
+.cart .item img {
+  width: 80px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.cart .details h1 {
+  font-size: 18px;
+  font-weight: 500;
+}
+.cart .details p {
+  color: grey;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.cart .details .price {
+  color: rgb(61, 61, 159);
+}
+.cart .delete {
+  color: red;
+  font-size: 30px;
+  cursor: pointer;
+  cursor: pointer;
+}
+.cart .total {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.cart button {
+  margin-top: 20px;
+  padding: 10px 50px;
+  background-color: rgb(24, 203, 244);
+  border: none;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.cart .reset {
+  color: red;
+  cursor: pointer;
+}

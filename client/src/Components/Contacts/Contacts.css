@@ -1,0 +1,42 @@
+.contact{
+    width: 100%;
+    background-color: rgb(174, 170, 170);
+    
+}
+
+
+.contact .bot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact .bot .con{
+    margin: 27px 33px;
+    margin-left: 60px;
+   
+}
+.contact .bot .con input{
+    width: 213px;
+    height: 38px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+}
+.contact .bot .con button{
+    width: 100px;
+    height: 43px;
+    background-color: rgb(254, 132, 67);
+    border: none;
+    color: aliceblue;
+    font-weight: bold;
+    cursor: pointer;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.contact .bot .mid{
+    width: 30%;
+}
+.contact .bot .right {
+    margin: 27px 33px;
+
+}
